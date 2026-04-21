@@ -13,6 +13,8 @@ This repository already includes a local install path, CLI checks, and host-inte
 - `boostctl` and diagnostics CLI for verification and troubleshooting
 - repo-local `.tools/uv/` bootstrap for install-time tooling, while runtime code stays in `/usr/lib/boost-switch/venv`
 
+> Warning: this project can directly affect CPU Boost behavior on the host, so review the docs carefully and use it at your own risk.
+
 ## Supported Scope
 
 - Ubuntu 24 hosts with GNOME Shell

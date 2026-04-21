@@ -13,6 +13,8 @@
 - `boostctl` 与诊断 CLI 作为验证和排障入口
 - 安装时会自举仓库级 `.tools/uv/`，实际运行时仍使用 `/usr/lib/boost-switch/venv`
 
+> 提示：本项目会直接影响主机上的 CPU Boost 行为，请先阅读相关文档，并自行承担风险。
+
 ## 适用范围
 
 - Ubuntu 24 且使用 GNOME Shell 的主机
