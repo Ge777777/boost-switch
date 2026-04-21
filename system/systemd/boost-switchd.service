@@ -1,0 +1,11 @@
+[Unit]
+Description=boost-switch privileged D-Bus service
+After=polkit.service dbus.service
+
+[Service]
+Type=simple
+ExecStart=@PREFIX@/venv/bin/python -m boost_switch.service.main
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,36 @@
+[project]
+name = "boost-switch"
+version = "0.1.0"
+description = "GNOME Shell Quick Settings CPU boost switch"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.12"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "dbus-next>=0.2.3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.0",
+    "pytest-asyncio>=0.24.0",
+]
+
+[project.scripts]
+boostctl = "boost_switch.cli.boostctl:main"
+boost-switch-diag = "boost_switch.cli.diagnostics:main"
+
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/boost_switch"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

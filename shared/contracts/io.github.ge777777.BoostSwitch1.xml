@@ -1,0 +1,17 @@
+<node>
+  <interface name="io.github.ge777777.BoostSwitch1.Control">
+    <method name="GetStatus">
+      <arg direction="out" type="a{sv}" name="status"/>
+    </method>
+    <method name="SetBoost">
+      <arg direction="in" type="b" name="enabled"/>
+      <arg direction="out" type="a{sv}" name="status"/>
+    </method>
+    <method name="GetDiagnostics">
+      <arg direction="out" type="a{sv}" name="diagnostics"/>
+    </method>
+    <signal name="StatusChanged">
+      <arg type="a{sv}" name="status"/>
+    </signal>
+  </interface>
+</node>

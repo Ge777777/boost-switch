@@ -1,0 +1,16 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.boost-switch" path="/org/gnome/shell/extensions/boost-switch/">
+    <key name="show-indicator" type="b">
+      <default>true</default>
+    </key>
+    <key name="notify-on-error" type="b">
+      <default>true</default>
+    </key>
+    <key name="enable-poll-fallback" type="b">
+      <default>true</default>
+    </key>
+    <key name="debug-logging" type="b">
+      <default>false</default>
+    </key>
+  </schema>
+</schemalist>

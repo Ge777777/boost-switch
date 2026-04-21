@@ -1,0 +1,11 @@
+{
+  "supported": true,
+  "available": true,
+  "enabled": false,
+  "can_toggle": true,
+  "backend": "polkit-dbus",
+  "reason": "ok",
+  "message": "CPU Boost 已关闭",
+  "last_source": "boostctl",
+  "last_changed_usec": 1713600000000000
+}

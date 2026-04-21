@@ -1,0 +1,7 @@
+{
+  "uuid": "boost-switch@ge777777.github.io",
+  "name": "Boost Switch",
+  "description": "Quick Settings toggle for CPU Boost",
+  "shell-version": ["46"],
+  "settings-schema": "org.gnome.shell.extensions.boost-switch"
+}

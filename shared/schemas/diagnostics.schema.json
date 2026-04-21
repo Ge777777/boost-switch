@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "supported",
+    "available",
+    "enabled",
+    "can_toggle",
+    "backend",
+    "reason",
+    "message",
+    "user_name",
+    "uid",
+    "in_authorized_group",
+    "session_active",
+    "session_remote"
+  ]
+}

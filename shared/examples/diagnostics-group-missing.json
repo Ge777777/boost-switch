@@ -1,0 +1,16 @@
+{
+  "supported": true,
+  "available": true,
+  "enabled": true,
+  "can_toggle": false,
+  "backend": "polkit-dbus",
+  "reason": "permission_denied",
+  "message": "当前用户不在授权组中",
+  "user_name": "tester",
+  "uid": 1000,
+  "in_authorized_group": false,
+  "session_active": true,
+  "session_remote": false,
+  "last_source": "diagnostics",
+  "last_changed_usec": 0
+}
